@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <!--link rel="stylesheet" type="text/css" href="css/index.css"-->
+    <link href='css/estilos.css' rel="stylesheet" type="text/css">
+    <script src='js/elements_data.js'></script>
+    <script src='js/myindex.js'></script>
+        <title>Tabla periodica de los elementos</title>
+    </head>
+    <body>
+<div class='tabla'>
+<div class='fila'>
+        <div class='elemento'><span>H</span></div>
+    <div class='shows'>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    <div class='show'><span></span></div>
+    </div>
+    <div class='elemento'><span>He</span></div>
+</div>
+<div class='fila'>
+    <div class='elemento'>
+    <span>Li</span>
+    </div>
+    <div class='elemento'>
+    <span>Be</span>
+    </div>
+        <div class='espacio1'></div>
+    <div class='operador'>
+        <span>MULT</span>
+    </div>
+    <div class='operador'>
+        <span>DIV</span>
+    </div>
+    <div class='operador'>
+        <span>(</span>
+    </div>
+    <div class='operador'>
+        <span>)</span>
+    </div>
+    <!--div class='operador'>
+        <span>.</span>
+    </div-->
+    <div class='command' id='delete'>
+        <span>DEL</span>
+    </div>
+    <div class='command' id='clear'>
+        <span>C</span>
+    </div>
+    <div class='command' id='igual'>
+        <span>=</span>
+    </div>
+    <div class='espacio1'></div>
+    <div class='espacio1'></div>
+    <div class='elemento'>
+    <span>B</span>
+    </div>
+    <div class='elemento'>
+    <span>C</span>
+    </div>
+    <div class='elemento'>
+    <span>N</span>
+    </div>
+    <div class='elemento'>
+    <span>O</span>
+    </div>
+    <div class='elemento'>
+    <span>F</span>
+    </div>
+    <div class='elemento'>
+    <span>Ne</span>
+    </div>
+</div>
+<div class='fila'>
+    <div class='elemento'>
+    <span>Na</span>
+    </div>
+    <div class='elemento'>
+    <span>Mg</span>
+    </div>
+    <!--div class='espacio10'>
+    </div-->
+    <div class='numero'>
+        <span>0</span>
+    </div>
+    <div class='numero'>
+        <span>1</span>
+    </div>
+    <div class='numero'>
+        <span>2</span>
+    </div>
+    <div class='numero'>
+        <span>3</span>
+    </div>
+    <div class='numero'>
+        <span>4</span>
+    </div>
+    <div class='numero'>
+        <span>5</span>
+    </div>
+    <div class='numero'>
+        <span>6</span>
+    </div>
+    <div class='numero'>
+        <span>7</span>
+    </div>
+    <div class='numero'>
+        <span>8</span>
+    </div>
+    <div class='numero'>
+        <span>9</span>
+    </div>
+    <div class='elemento'>
+    <span>Al</span>
+    </div>
+    <div class='elemento'>
+    <span>Si</span>
+    </div>
+    <div class='elemento'>
+    <span>P</span>
+    </div>
+    <div class='elemento'>
+    <span>S</span>
+    </div>
+    <div class='elemento'>
+    <span>Cl</span>
+    </div>
+    <div class='elemento'>
+    <span>Ar</span>
+    </div>
+</div>
+<div class='fila'>
+    <div class='elemento'>
+    <span>K</span>
+    </div>
+    <div class='elemento'>
+    <span>Ca</span>
+    </div>
+    <div class='elemento'>
+    <span>Sc</span>
+    </div>
+    <div class='elemento'>
+    <span>Ti</span>
+    </div>
+    <div class='elemento'>
+    <span>V</span>
+    </div>
+    <div class='elemento'>
+    <span>Cr</span>
+    </div>
+    <div class='elemento'>
+    <span>Mn</span>
+    </div>
+    <div class='elemento'>
+    <span>Fe</span>
+    </div>
+    <div class='elemento'>
+    <span>Co</span>
+    </div>
+    <div class='elemento'>
+    <span>Ni</span>
+    </div>
+    <div class='elemento'>
+    <span>Cu</span>
+    </div>
+    <div class='elemento'>
+    <span>Zn</span>
+    </div>
+    <div class='elemento'>
+    <span>Ga</span>
+    </div>
+    <div class='elemento'>
+    <span>Ge</span>
+    </div>
+    <div class='elemento'>
+    <span>As</span>
+    </div>
+    <div class='elemento'>
+    <span>Se</span>
+    </div>
+    <div class='elemento'>
+    <span>Br</span>
+    </div>
+    <div class='elemento'>
+    <span>Kr</span>
+    </div>
+</div>
+<div class='fila'>
+    <div class='elemento'>
+    <span>Rb</span>
+    </div>
+    <div class='elemento'>
+    <span>Sr</span>
+    </div>
+    <div class='elemento'>
+    <span>Y</span>
+    </div>
+    <div class='elemento'>
+    <span>Zr</span>
+    </div>
+    <div class='elemento'>
+    <span>Nb</span>
+    </div>
+    <div class='elemento'>
+    <span>Mo</span>
+    </div>
+    <div class='elemento'>
+    <span>Tc</span>
+    </div>
+    <div class='elemento'>
+    <span>Ru</span>
+    </div>
+    <div class='elemento'>
+    <span>Rh</span>
+    </div>
+    <div class='elemento'>
+    <span>Pd</span>
+    </div>
+    <div class='elemento'>
+    <span>Ag</span>
+    </div>
+    <div class='elemento'>
+    <span>Cd</span>
+    </div>
+    <div class='elemento'>
+    <span>In</span>
+    </div>
+    <div class='elemento'>
+    <span>Sn</span>
+    </div>
+    <div class='elemento'>
+    <span>Sb</span>
+    </div>
+    <div class='elemento'>
+    <span>Te</span>
+    </div>
+    <div class='elemento'>
+    <span>I</span>
+    </div>
+    <div class='elemento'>
+    <span>Xe</span>
+    </div>
+</div>
+<div class='fila'>
+    <div class='elemento'>
+    <span>Cs</span>
+    </div>
+    <div class='elemento'>
+    <span>Ba</span>
+    </div>
+    <div class='elemento'>
+    <span>Lan</span>
+    </div>
+    <div class='elemento'>
+    <span>Hf</span>
+    </div>
+    <div class='elemento'>
+    <span>Ta</span>
+    </div>
+    <div class='elemento'>
+    <span>W</span>
+    </div>
+    <div class='elemento'>
+    <span>Re</span>
+    </div>
+    <div class='elemento'>
+    <span>Os</span>
+    </div>
+    <div class='elemento'>
+    <span>Ir</span>
+    </div>
+    <div class='elemento'>
+    <span>Pt</span>
+    </div>
+    <div class='elemento'>
+    <span>Au</span>
+    </div>
+    <div class='elemento'>
+    <span>Hg</span>
+    </div>
+    <div class='elemento'>
+    <span>Tl</span>
+    </div>
+    <div class='elemento'>
+    <span>Pb</span>
+    </div>
+    <div class='elemento'>
+    <span>Bi</span>
+    </div>
+    <div class='elemento'>
+    <span>Po</span>
+    </div>
+    <div class='elemento'>
+    <span>At</span>
+    </div>
+    <div class='elemento'>
+    <span>Rn</span>
+    </div>
+</div>
+<div class='fila'>
+    <div class='elemento'>
+    <span>Fr</span>
+    </div>
+    <div class='elemento'>
+    <span>Ra</span>
+    </div>
+    <div class='elemento'>
+    <span>Act</span>
+    </div>
+    <div class='elemento'>
+    <span>Rf</span>
+    </div>
+    <div class='elemento'>
+    <span>Db</span>
+    </div>
+    <div class='elemento'>
+    <span>Sg</span>
+    </div>
+    <div class='elemento'>
+    <span>Bh</span>
+    </div>
+    <div class='elemento'>
+    <span>Hs</span>
+    </div>
+    <div class='elemento'>
+    <span>Mt</span>
+    </div>
+    <div class='elemento'>
+    <span>Mv</span>
+    </div>
+    <div class='elemento'>
+    <span>Pl</span>
+    </div>
+    <div class='elemento'>
+    <span>Da</span>
+    </div>
+    <div class='elemento'>
+    <span>Tf</span>
+    </div>
+    <div class='elemento'>
+    <span>Eo</span>
+    </div>
+    <div class='elemento'>
+    <span>Me</span>
+    </div>
+    <div class='elemento'>
+    <span>Nc</span>
+    </div>
+    <div class='elemento'>
+    <span>El</span>
+    </div>
+    <div class='elemento'>
+    <span>On</span>
+    </div>
+</div>
+</div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
