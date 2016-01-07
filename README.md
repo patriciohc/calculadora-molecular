@@ -8,3 +8,5 @@ Esta operación divide el peso molecular del Hidróxido de Calcio, entre el peso
 se necesita realizar una determinación indirecta, en este caso si hemos encontrado el contenido de Oxido de Calcio 
 y queremos determinar indirectamente el contenido de Hidróxido de Calcio, tendremos que multiplicar el porcentaje de
 oxido de calcio obtenido, por el "Factor" calculado.
+
+![Sin titulo](capturas/captura.png)
